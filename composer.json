@@ -3,8 +3,7 @@
     "description": "A Vimeo bridge for Laravel",
     "license": "Apache-2.0",
     "keywords": ["laravel", "vimeo", "video"],
-    "authors": [
-        {
+    "authors": [{
             "name": "Jon Ursenbach",
             "email": "jonu@vimeo.com"
         },
@@ -19,8 +18,12 @@
         "illuminate/contracts": "^5.8|^6.0|^6.2",
         "illuminate/support": "^5.8|^6.0|^6.2",
         "graham-campbell/manager": "^4.0",
-        "vimeo/vimeo-api": "^3.0.2"
+        "vimeo/vimeo-api": "dev-add-laravel62-support"
     },
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/netr/vimeo.api"
+    }],
     "require-dev": {
         "laravel/framework": "^5.8|^6.0|^6.2",
         "graham-campbell/analyzer": "^2.0",
